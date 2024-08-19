@@ -1,0 +1,45 @@
+INPUTS m1 m2 m3 m4 m5 m6 m7 m8 m9 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20 m21 m22 m23 m24 m25 m26 m27 m28 m29 m30 m31 m32 m33 m34 m35 m36 m37 m38 m39 m40 m41 m42 m43 m44 m45 m46 m47 m48 m49 m50 m51 m52 m53 m54 m55 m56 m57 m58 m59 m60 m61 m62 m63
+OUTPUTS o0 o1 o2 o3 o4 o5 o6 o7
+
+// Bottom linear transform
+p0 = m52 + m61
+p1 = m58 + m59
+p2 = m54 + m62
+p3 = m47 + m50
+p4 = m48 + m56
+p5 = m46 + m51
+p6 = m49 + m60
+p7 = p0 + p1
+p8 = m50 + m53
+p9 = m55 + m63
+
+p10 = m57 + p4
+p11 = p0 + p3
+p12 = m46 + m48
+p13 = m49 + m51
+p14 = m49 + m62
+p15 = m54 + m59
+p16 = m57 + m61
+p17 = m58 + p2
+p18 = m63 + p5
+p19 = p2 + p3
+
+p20 = p4 + p6
+p22 = p2 + p7
+p23 = p7 + p8
+p24 = p5 + p7
+p25 = p6 + p10
+p26 = p9 + p11
+p27 = p10 + p18
+p28 = p11 + p25
+p29 = p15 + p20
+o7 = p13 + p22
+
+o6 = p26 + p29
+o5 = p17 + p28
+o4 = p12 + p22
+o3 = p23 + p27
+o2 = p19 + p24
+o1 = p14 + p23
+o0 = p9 + p16
+
